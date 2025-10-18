@@ -1,13 +1,13 @@
-# Node.js
+# Dependências
 node_modules/
+
+# Arquivos de Sessão e Dados
+sessions/
+node_modules/
+database.db
+uploads/
+*.log
+
+# Logs e arquivos temporários
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Puppeteer Chromium
-.local-chromium/
-chrome/
-chrome-win/
-
-# Ambiente
-.env
