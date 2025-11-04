@@ -35,7 +35,9 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const db = new sqlite3.Database('./database.db', (err) => {
+//codigo certo comentado
+//const db = new sqlite3.Database('./database.db', (err) => {
+const db = new sqlite3.Database('/tmp/database.db', (err) => {
     if (err) {
         console.error("Erro fatal ao abrir o banco de dados", err.message);
         return;
