@@ -15,5 +15,6 @@ aptPkgs = [
   "libxshmfence1",
   "libasound2t64",
   "fonts-liberation",
-  "libgobject-2.0-0"
+  "libgobject-2.0-0",
+  "libpango-1.0-0t64"
 ]
