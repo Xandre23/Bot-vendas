@@ -15,5 +15,6 @@ aptPkgs = [
   "libgbm1",
   "libxshmfence1",
   "libasound2",
-  "fonts-liberation"
+  "fonts-liberation",
+  "libgobject-2.0-0"
 ]
