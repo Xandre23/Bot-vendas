@@ -19,3 +19,5 @@ aptPkgs = [
   "libpango-1.0-0",
   "libcairo2"
 ]
+[phases.install]
+cmds = ["npm install"]
