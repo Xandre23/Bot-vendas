@@ -9,10 +9,10 @@ const crypto = require('crypto');
 const multer = require('multer');
 const ExcelJS = require('exceljs');
 
-const SERVER_URL = 'https://URL-REAL-DO-SEU-PAINEL.squareweb.app'; // <--- USE A SUA URL REAL!
+const SERVER_URL = 'https://bot-vendas-production-a993.up.railway.app';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const convert = new Convert();
 
 let mpClient;
